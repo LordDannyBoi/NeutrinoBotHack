@@ -7,3 +7,17 @@ You can still set your ip via this variable however and can XSS and blind SQLi i
 
 This module fills in your ip as a random number and completes requests with a binary search rather than brute-forcing. 
 This means less requests, less noise and takes less time.
+
+
+### Usage
+This module requires the python [Requests](http://docs.python-requests.org/en/master/# "Requests doc page") module.
+
+**Install**
+```
+pip install requests
+```
+
+**Use**
+```
+python neutrino.py http://panel-url-or-ip/
+```
